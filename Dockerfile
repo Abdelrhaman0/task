@@ -4,6 +4,6 @@ WORKDIR /application
 
 COPY image.java .
 
-RUN javac ahemd.java
+RUN javac image.java
 
-CMD java ahemd
+CMD java image
