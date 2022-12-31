@@ -2,7 +2,7 @@ FROM openjdk
 
 WORKDIR /application 
 
-COPY ahmed.java .
+COPY image.java .
 
 RUN javac ahemd.java
 
